@@ -32,7 +32,7 @@ data =  {
     "password": "MyPassword123"
 }
 
-c = requests.post("localhost:8050", data)
+c = requests.post("localhost:8050/gettoken", data)
 print(c.content)
 
 this will return a json!
