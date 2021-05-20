@@ -16,7 +16,7 @@ var express = require('express');
 // }
 
 var app = express();
-var server = https.createServer(options, app).listen(443);
+var server = https.createServer(app).listen(443);
 
 const limiter = rateLimit({
   windowMs: 60 * 60 * 1000, // 60 minutes
