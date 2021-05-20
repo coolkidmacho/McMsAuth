@@ -5,14 +5,10 @@
 
 
 First install nodejs https://nodejs.org/en/
+
+Then, install the required dependencies:
 ```sh
-npm i axios
-npm i fs
-npm i net
-npm i express-rate-limit
-npm i https
-npm i @xboxreplay/xboxlive-auth
-npm i express
+npm i axios express-rate-limit @xboxreplay/xboxlive-auth express
 ```
 
 ### Usage
@@ -32,7 +28,7 @@ data =  {
     "password": "MyPassword123"
 }
 
-c = requests.post("localhost:8050/gettoken", data)
+c = requests.post("localhost:8050", data)
 print(c.content)
 
 this will return a json!
