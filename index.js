@@ -72,4 +72,4 @@ let authenticateAccount = async (email, password) => {
 
 
 
-app.listen(8050, () => console.log(`Started server at http://localhost:8080!`));
+app.listen(8050, () => console.log(`Started server at http://localhost:8050!`));
