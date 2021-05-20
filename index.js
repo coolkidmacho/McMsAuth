@@ -18,11 +18,11 @@ var express = require('express');
 var app = express();
 var server = https.createServer(app).listen(443);
 
-const limiter = rateLimit({
-  windowMs: 60 * 60 * 1000, // 60 minutes
-  max: 1, // limit each IP to 100 requests per windowMs
-  message: "You are sending requests too fast :("
-});
+// const limiter = rateLimit({
+//   windowMs: 60 * 60 * 1000, // 60 minutes
+//   max: 1, // limit each IP to 100 requests per windowMs
+//   message: "You are sending requests too fast :("
+// });
 
 
 // app.use(limiter);
