@@ -8,7 +8,7 @@ First install nodejs https://nodejs.org/en/
 
 Then, install the required dependencies:
 ```sh
-npm i axios express-rate-limit @xboxreplay/xboxlive-auth express
+npm i axios express-rate-limit @xboxreplay/xboxlive-auth express colors
 ```
 
 ### Usage
