@@ -6,14 +6,7 @@
 
 First install nodejs https://nodejs.org/en/
 ```sh
-npm i axios
-npm i fs
-npm i net
-npm i express-rate-limit
-npm i https
-npm i @xboxreplay/xboxlive-auth
-npm i express
-npm I colors
+npm i --save
 ```
 
 ### Usage
